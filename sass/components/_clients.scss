@@ -1,0 +1,37 @@
+.clients:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-list {
+    display: flex;
+    justify-content: center;
+    @extend %list;
+}
+
+.clients-link {
+    display: inline-block;
+    outline: 1px solid #AFB1B8;
+    border-radius: 4px;
+    width: 170px;
+    height: 92px;
+    cursor: pointer;
+
+    transition: outline $transition-time;
+
+    &:hover,
+    &:focus {
+            outline: 1px solid $accent-color;
+        }
+}
+
+.clients-logo {
+    width: 106px;
+    height: 60px;
+    margin: 16px 32px;
+    fill: $svg-icon;
+    transition: fill $transition-time;
+
+    .clients-link:hover & {
+            fill: $accent-color;
+        }
+}

@@ -1,0 +1,128 @@
+.page-footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+
+    background-color: $secondary-bgc;
+
+    & .logo {
+            display: inline-block;
+            margin-bottom: 20px;
+            color: $primery-white-color;
+        }
+}
+
+.footer-group {
+    display: flex;
+}
+
+.footer-contact {
+    margin-right: 70px;
+    
+    & .contacts {
+            color: rgba(255, 255, 255, 0.6);
+            text-decoration: none;
+        }
+
+    & .adds {
+        color: $primery-white-color;
+    }
+}
+
+.contact-details{
+    @extend %list;
+}
+
+/*Footer-messenger*/
+
+.footer-messenger {
+    margin-right: 93px;
+}
+
+.messenger {
+    display: flex;
+    @extend %list;
+}
+
+.messenger-title,
+.sending-title {
+    margin-bottom: 20px;
+
+    color: $primery-white-color;
+    font-weight: 700;
+    line-height: 1.14;
+    text-transform: uppercase;
+}
+
+.messenger-item {
+    border-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 44px;
+    height: 44px;
+
+    transition: background-color $transition-time;
+
+        &:focus,
+        &:hover {
+            background-color: $accent-color;
+        }
+
+        &:not(:last-child) {
+            margin-right: 10px;
+        }
+}
+
+.messenger-link {
+    display: inline-block;
+    width: 44px;
+    height: 44px;
+}
+
+.messenger-icon {
+    margin: 12px;
+    width: 20px;
+    height: 20px;
+    fill: $primery-white-color;
+}
+
+/*Sending*/
+
+ .sending-button {
+     display: flex;
+     align-items: center;
+     margin-left: 12px;
+ }
+
+ .sending-form {
+     display: flex;
+     width: 570px;
+     align-items: center;
+ }
+
+ .sending-field {
+     margin-bottom: 0;
+ }
+
+ .sending-mail {
+     width: 358px;
+     height: 50px;
+     padding: 15px 16px;
+     border: 1px solid rgba(255, 255, 255, 0.3);
+     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+     border-radius: 4px;
+     background-color: $secondary-bgc;
+     color: rgba(255, 255, 255, 0.6);
+     font-size: 16px;
+     letter-spacing: 0.03em;
+ }
+
+ .sending-icon {
+     margin-left: 10px;
+
+     width: 24px;
+     height: 24px;
+ }
+
+
+
+
+

@@ -1,0 +1,36 @@
+.features {
+    display: flex;
+    @extend %list;
+}
+
+.features-item {
+    width: 270px;
+    margin-right: 30px;
+
+    &:last-child {
+            margin-right: 0px;
+        }
+}
+
+.icon-background {
+    display: block;
+    height: 120px;
+    background-color: #F5F4FA;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
+.item-icon {
+    margin: 25px 100px;
+}
+
+.features-title {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    color: $secondary-text-color;
+    line-height: 1.1;
+}
+ p {
+     margin-top: 0px;
+     margin-bottom: 0px;
+ }
