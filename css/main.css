@@ -268,13 +268,12 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.7;
-  width: 1600px;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -444,6 +443,8 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #757575;
   font-weight: 500;
   line-height: 1.1;
@@ -495,7 +496,6 @@ body {
 .backdrop {
   position: fixed;
   top: 0;
-  left: 0;
   width: 1600px;
   height: 1024px;
   background: rgba(0, 0, 0, 0.2);
@@ -534,7 +534,7 @@ body {
 .modal-btn {
   position: absolute;
   top: 8px;
-  right: 24px;
+  right: 8px;
   display: inline-block;
   width: 30px;
   height: 30px;
@@ -551,7 +551,8 @@ body {
 
 .feedback-form {
   width: 450px;
-  margin-left: 34px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .feedback-title {
@@ -621,7 +622,6 @@ input:hover ~ .feedback-icon {
 }
 
 .feedback-comment {
-  margin-bottom: 25px;
   padding: 12px 16px;
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -721,6 +721,9 @@ input:hover ~ .feedback-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .features-item {
@@ -759,6 +762,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-item {
@@ -798,6 +804,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .team-item {
@@ -922,6 +931,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-contact {
@@ -1043,6 +1055,9 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-contact {

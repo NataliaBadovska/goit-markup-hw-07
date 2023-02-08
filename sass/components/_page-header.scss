@@ -3,6 +3,7 @@
     display: flex;
     align-items: center;
     min-height: 80px;
+   
 }
 
 .line {
@@ -97,6 +98,10 @@
 .contacts-nav {
     display: flex;
     align-items: center;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
+
     color: $primary-text-color;
     font-weight: 500;
     line-height: 1.1;

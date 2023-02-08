@@ -268,13 +268,12 @@ body {
   letter-spacing: 0.03em;
   font-size: 14px;
   line-height: 1.7;
-  width: 1600px;
 }
 
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1200px;
+  max-width: 1230px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -336,7 +335,8 @@ body {
 
 .feedback-form {
   width: 450px;
-  margin-left: 34px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .feedback-title {
@@ -406,7 +406,6 @@ input:hover ~ .feedback-icon {
 }
 
 .feedback-comment {
-  margin-bottom: 25px;
   padding: 12px 16px;
   width: 100%;
   border: 1px solid rgba(33, 33, 33, 0.2);
@@ -612,6 +611,8 @@ input:hover ~ .feedback-icon {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
   color: #757575;
   font-weight: 500;
   line-height: 1.1;
@@ -675,6 +676,9 @@ input:hover ~ .feedback-icon {
   display: flex;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .developed-item {
@@ -766,6 +770,9 @@ input:hover ~ .feedback-icon {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .footer-contact {

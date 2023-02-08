@@ -1,6 +1,7 @@
 .developed {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     @extend %list;
 }
 
